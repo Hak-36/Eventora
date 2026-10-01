@@ -1,0 +1,364 @@
+{
+  "events": [
+    {
+      "id": "evt-civic-1",
+      "hostId": "host-demo-1",
+      "title": "Metro Civic Town Hall: Urban Sustainability & Public Transit 2026",
+      "category": "Civic & Government",
+      "startDateTime": "2026-10-18T18:00",
+      "endDateTime": "2026-10-18T21:00",
+      "venue": "City Council Assembly Chamber",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 250,
+      "description": "A transparent civic forum bringing together municipal planning directors, ward representatives, and residents to review transit expansion and green corridors.",
+      "tone": "Civic & Official",
+      "organizerName": "Metropolitan Civic & Cultural Board",
+      "organizerContact": "eleanor.vance@cityevents.org",
+      "entryType": "Free Public Entry",
+      "status": "Live",
+      "createdAt": "2026-10-01T08:00:00.000Z",
+      "updatedAt": "2026-10-01T08:00:00.000Z"
+    },
+    {
+      "id": "evt-health-1",
+      "hostId": "host-demo-1",
+      "title": "PureMind Community Wellness & Holistic Health Expo 2026",
+      "category": "Health & Wellness",
+      "startDateTime": "2026-10-22T08:30",
+      "endDateTime": "2026-10-22T16:00",
+      "venue": "Riverfront Green Pavilion & Lawn",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 350,
+      "description": "A rejuvenating public wellness festival offering free biometric health screenings, certified yoga clinics, sound baths, and accessible mental health support circles.",
+      "tone": "Warm & Community-First",
+      "organizerName": "Metropolitan Civic & Cultural Board",
+      "organizerContact": "eleanor.vance@cityevents.org",
+      "entryType": "Free Public Entry",
+      "status": "Published",
+      "createdAt": "2026-09-28T10:00:00.000Z",
+      "updatedAt": "2026-09-30T14:30:00.000Z"
+    },
+    {
+      "id": "evt-cultural-1",
+      "hostId": "host-demo-1",
+      "title": "Heritage Harmony: Global Folk & Culinary Festival 2026",
+      "category": "Cultural & Festival",
+      "startDateTime": "2026-10-28T11:00",
+      "endDateTime": "2026-10-28T19:30",
+      "venue": "Downtown Cultural Plaza & Amphitheater",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 600,
+      "description": "An open cultural carnival celebrating ethnic music, traditional dance troupes, indigenous artisan crafts, and global culinary tastings from over 25 communities.",
+      "tone": "Celebratory & Festive",
+      "organizerName": "Metropolitan Civic & Cultural Board",
+      "organizerContact": "eleanor.vance@cityevents.org",
+      "entryType": "Free Public Entry",
+      "status": "Published",
+      "createdAt": "2026-09-25T11:00:00.000Z",
+      "updatedAt": "2026-09-29T16:00:00.000Z"
+    },
+    {
+      "id": "evt-sports-1",
+      "hostId": "host-demo-1",
+      "title": "Apex City 10K Charity Marathon & Fitness Games",
+      "category": "Sports & Fitness",
+      "startDateTime": "2026-11-08T07:00",
+      "endDateTime": "2026-11-08T13:00",
+      "venue": "Olympic Park & Lakeshore Running Circuit",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 500,
+      "description": "An energizing community marathon and obstacle course raising funds for youth athletics equipment and accessible community sports fields.",
+      "tone": "High-Energy & Inspiring",
+      "organizerName": "Metropolitan Civic & Cultural Board",
+      "organizerContact": "eleanor.vance@cityevents.org",
+      "entryType": "Registration Required",
+      "status": "Draft",
+      "createdAt": "2026-10-01T09:00:00.000Z",
+      "updatedAt": "2026-10-01T09:00:00.000Z"
+    },
+    {
+      "id": "evt-entertainment-1",
+      "hostId": "host-demo-1",
+      "title": "EchoWaves Sunset Music & Performing Arts Gala 2026",
+      "category": "Entertainment",
+      "startDateTime": "2026-09-15T18:00",
+      "endDateTime": "2026-09-15T22:30",
+      "venue": "Marina Harbor Amphitheatre",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 450,
+      "description": "An open-air evening celebrating local indie songwriters, acoustic ensembles, improv theatre, and community food stalls.",
+      "tone": "Celebratory & Festive",
+      "organizerName": "Metropolitan Civic & Cultural Board",
+      "organizerContact": "eleanor.vance@cityevents.org",
+      "entryType": "Ticketed RSVP",
+      "status": "Completed",
+      "createdAt": "2026-08-20T10:00:00.000Z",
+      "updatedAt": "2026-09-16T10:00:00.000Z"
+    }
+  ],
+  "registrations": [
+    {
+      "ticketId": "tkt_p-c1",
+      "ticketCode": "EVP-5BAOI",
+      "eventId": "evt-civic-1",
+      "participantEmail": "carlos.m@metrotransitcoalition.org",
+      "participantName": "Carlos Mendez",
+      "roleTier": "Delegate",
+      "interests": [
+        "Community & Policy"
+      ],
+      "phone": "4155551234",
+      "company": "Transit Advocates Coalition",
+      "answers": {},
+      "status": "Checked in",
+      "isCheckedIn": true,
+      "checkInTimestamp": "05:40 PM",
+      "registeredAt": "2026-10-01T09:26:59.333Z"
+    },
+    {
+      "ticketId": "tkt_p-c2",
+      "ticketCode": "EVP-LKFIZ",
+      "eventId": "evt-civic-1",
+      "participantEmail": "d.foster@cityhall.gov",
+      "participantName": "Hon. Diane Foster",
+      "roleTier": "Speaker",
+      "interests": [
+        "Community & Policy"
+      ],
+      "phone": "4155551234",
+      "company": "City Council District 4",
+      "answers": {},
+      "status": "Checked in",
+      "isCheckedIn": true,
+      "checkInTimestamp": "05:45 PM",
+      "registeredAt": "2026-10-01T09:26:59.333Z"
+    },
+    {
+      "ticketId": "tkt_p-c4",
+      "ticketCode": "EVP-L8BZ1",
+      "eventId": "evt-civic-1",
+      "participantEmail": "aisha.m@urbanstudies.edu",
+      "participantName": "Aisha Al-Mansoor",
+      "roleTier": "General",
+      "interests": [
+        "Community & Policy"
+      ],
+      "phone": "4155551234",
+      "company": "Urban Policy League",
+      "answers": {},
+      "status": "Approved",
+      "isCheckedIn": false,
+      "registeredAt": "2026-10-01T09:26:59.333Z"
+    },
+    {
+      "ticketId": "tkt_p-h1",
+      "ticketCode": "EVP-D92NZ",
+      "eventId": "evt-health-1",
+      "participantEmail": "sara.l@wellnessco.org",
+      "participantName": "Sara Lindqvist",
+      "roleTier": "General",
+      "interests": [
+        "Community & Policy"
+      ],
+      "phone": "4155551234",
+      "company": "Community Member",
+      "answers": {},
+      "status": "Approved",
+      "isCheckedIn": false,
+      "registeredAt": "2026-10-01T09:26:59.333Z"
+    },
+    {
+      "ticketId": "tkt_p-h2",
+      "ticketCode": "EVP-TQV6X",
+      "eventId": "evt-health-1",
+      "participantEmail": "j.morales@clinicallife.org",
+      "participantName": "Dr. Julian Morales",
+      "roleTier": "Speaker",
+      "interests": [
+        "Community & Policy"
+      ],
+      "phone": "4155551234",
+      "company": "Regional Health Clinic",
+      "answers": {},
+      "status": "Approved",
+      "isCheckedIn": false,
+      "registeredAt": "2026-10-01T09:26:59.333Z"
+    },
+    {
+      "ticketId": "tkt_p-cl1",
+      "ticketCode": "EVP-CXX2T",
+      "eventId": "evt-cultural-1",
+      "participantEmail": "mateo.rossi@artscouncil.org",
+      "participantName": "Mateo Rossi",
+      "roleTier": "Performer",
+      "interests": [
+        "Community & Policy"
+      ],
+      "phone": "4155551234",
+      "company": "Rossi Folk Ensemble",
+      "answers": {},
+      "status": "Approved",
+      "isCheckedIn": false,
+      "registeredAt": "2026-10-01T09:26:59.333Z"
+    },
+    {
+      "ticketId": "tkt_p-cl2",
+      "ticketCode": "EVP-VPHL1",
+      "eventId": "evt-cultural-1",
+      "participantEmail": "sunita@heritagekitchen.org",
+      "participantName": "Sunita Sharma",
+      "roleTier": "Exhibitor",
+      "interests": [
+        "Community & Policy"
+      ],
+      "phone": "4155551234",
+      "company": "Spice Route Kitchen",
+      "answers": {},
+      "status": "Approved",
+      "isCheckedIn": false,
+      "registeredAt": "2026-10-01T09:26:59.333Z"
+    },
+    {
+      "ticketId": "tkt_p-e1",
+      "ticketCode": "EVP-NTDH2",
+      "eventId": "evt-entertainment-1",
+      "participantEmail": "olivia@soundstage.fm",
+      "participantName": "Olivia Wilde",
+      "roleTier": "VIP",
+      "interests": [
+        "Community & Policy"
+      ],
+      "phone": "4155551234",
+      "company": "Acoustic Bay",
+      "answers": {},
+      "status": "Checked in",
+      "isCheckedIn": true,
+      "checkInTimestamp": "06:10 PM",
+      "registeredAt": "2026-10-01T09:26:59.333Z"
+    },
+    {
+      "ticketId": "4829d144-dc07-43c2-a10d-704ee840163d",
+      "ticketCode": "EVP-L8BW4",
+      "eventId": "evt-health-1",
+      "participantEmail": "saketh7930@gmail.com",
+      "participantName": "Saketh Bellamkonda venkata",
+      "roleTier": "General Delegate",
+      "interests": [
+        "ilovepolitics"
+      ],
+      "phone": "7093043125",
+      "company": "narayana engg clg",
+      "answers": {
+        "full_name": "Saketh Bellamkonda venkata",
+        "email": "saketh7930@gmail.com",
+        "ticket_tier": "General Delegate",
+        "interests": [
+          "ilovepolitics"
+        ],
+        "phone": "7093043125",
+        "organization": "narayana engg clg",
+        "terms_consent": true
+      },
+      "status": "Checked in",
+      "isCheckedIn": false,
+      "registeredAt": "2026-10-01T09:42:30.275Z",
+      "checkInTimestamp": "10:14 AM",
+      "updatedAt": "2026-10-01T10:14:33.102Z"
+    },
+    {
+      "ticketId": "dbe65a3a-e114-480d-b1a2-a8ea7c7a7087",
+      "ticketCode": "EVP-WK2TK",
+      "eventId": "evt-cultural-1",
+      "participantEmail": "saketh7930@gmail.com",
+      "participantName": "Saketh Bellamkonda venkata",
+      "roleTier": "General Delegate",
+      "interests": [
+        "ilovepolitics"
+      ],
+      "phone": "7093043125",
+      "company": "narayana engg clg",
+      "answers": {
+        "full_name": "Saketh Bellamkonda venkata",
+        "email": "saketh7930@gmail.com",
+        "ticket_tier": "General Delegate",
+        "interests": [
+          "ilovepolitics"
+        ],
+        "phone": "7093043125",
+        "organization": "narayana engg clg",
+        "terms_consent": true
+      },
+      "status": "Approved",
+      "isCheckedIn": false,
+      "registeredAt": "2026-10-01T10:25:54.623Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "a-c0",
+      "eventId": "evt-civic-1",
+      "eventTitle": "Metro Civic Town Hall: Urban Sustainability & Public Transit 2026",
+      "eventCategory": "Civic & Government",
+      "title": "Urgent: Main Auditorium Doors Open Early",
+      "message": "Due to high expected civic attendance and security checkpoints at the North Gate, the City Council Assembly Chamber doors will open 30 minutes early at 5:30 PM. Please have your digital fastpass ready.",
+      "rawText": "Doors open early at 5:30 due to high crowd.",
+      "polishedText": "Due to high expected civic attendance and security checkpoints at the North Gate, the City Council Assembly Chamber doors will open 30 minutes early at 5:30 PM. Please have your digital fastpass ready.",
+      "type": "Urgent",
+      "tone": "Civic & Official",
+      "timestamp": "05:15 PM",
+      "targetAudience": "All Attendees",
+      "isPinned": true,
+      "organizerName": "Metropolitan Civic & Cultural Board",
+      "createdAt": "2026-10-01T09:30:00.000Z",
+      "updatedAt": "2026-10-01T09:30:00.000Z",
+      "isDelivered": true,
+      "readBy": []
+    },
+    {
+      "id": "a-c1",
+      "eventId": "evt-civic-1",
+      "eventTitle": "Metro Civic Town Hall: Urban Sustainability & Public Transit 2026",
+      "eventCategory": "Civic & Government",
+      "title": "Row 3 Reserved for Public Testimony",
+      "message": "Delegates registered for the open public testimony period are kindly requested to take their seats in Row 3 for smooth proceedings during the question round.",
+      "rawText": "Speakers with question slips please assemble in Row 3 for the microphone.",
+      "polishedText": "Delegates registered for the open public testimony period are kindly requested to take their seats in Row 3 for smooth proceedings during the question round.",
+      "type": "Reminder",
+      "tone": "Civic & Official",
+      "timestamp": "05:50 PM",
+      "targetAudience": "All Attendees",
+      "isPinned": false,
+      "organizerName": "Metropolitan Civic & Cultural Board",
+      "createdAt": "2026-10-01T08:30:00.000Z",
+      "updatedAt": "2026-10-01T08:30:00.000Z",
+      "isDelivered": true,
+      "readBy": []
+    },
+    {
+      "id": "a-cult1",
+      "eventId": "evt-cultural-1",
+      "eventTitle": "Heritage Harmony: Global Folk & Culinary Festival 2026",
+      "eventCategory": "Cultural & Festival",
+      "title": "Festival Gate & Food Tasting Map Live",
+      "message": "Welcome cultural festival attendees! The full 25-nation tasting pavilion route and main stage schedule are now active. Please display your digital cinema entry pass at the Plaza East turnstiles.",
+      "rawText": "Tasting map and schedule live.",
+      "polishedText": "Welcome cultural festival attendees! The full 25-nation tasting pavilion route and main stage schedule are now active. Please display your digital cinema entry pass at the Plaza East turnstiles.",
+      "type": "General",
+      "tone": "Celebratory & Festive",
+      "timestamp": "10:30 AM",
+      "targetAudience": "All Attendees",
+      "isPinned": true,
+      "organizerName": "Metropolitan Civic & Cultural Board",
+      "createdAt": "2026-10-01T10:00:00.000Z",
+      "updatedAt": "2026-10-01T10:00:00.000Z",
+      "isDelivered": true,
+      "readBy": []
+    }
+  ],
+  "readState": {}
+}

@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  --font-main: 'Nunito', 'Quicksand', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-accent: 'Caveat', 'Nunito', cursive;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+@theme {
+  --font-sans: var(--font-main);
+  --font-mono: var(--font-mono);
+  --font-accent: var(--font-accent);
+}
+
+@layer base {
+  html, body {
+    font-family: var(--font-main);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.6;
+  }
+
+  /* Headings: weight 700 to 800, slightly tighter letter spacing (-0.01em) */
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: var(--font-main);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  h1 {
+    font-weight: 800;
+  }
+
+  /* Body text: weight 400 to 500, line-height 1.6 for readability */
+  p {
+    font-weight: 400;
+    line-height: 1.6;
+  }
+
+  /* Buttons and labels: weight 600 to 700 */
+  button, label {
+    font-weight: 600;
+    font-family: inherit;
+  }
+
+  /* Make sure inputs, textareas, selects, and buttons inherit the font */
+  input, textarea, select {
+    font-family: inherit;
+  }
+
+  /* Monospace font utility for ticket codes and gate codes */
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+
+  /* Accent font for small decorative touches (welcome greeting, empty state headlines, registered toast) */
+  .font-accent {
+    font-family: var(--font-accent);
+  }
+}
+
+/* Custom sleek dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}

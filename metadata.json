@@ -1,0 +1,8 @@
+{
+  "name": "Remix Smart Event Management Assistant",
+  "description": "An AI-powered command center and participant companion for modern conferences, summits, and hybrid events.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
