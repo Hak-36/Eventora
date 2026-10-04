@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import express from 'express';
 import { askAgent } from './agent37.js';
 import { createServer as createViteServer } from 'vite';
