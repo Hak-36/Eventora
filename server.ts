@@ -657,6 +657,58 @@ async function startServer() {
       res.status(500).json({ error: 'Failed to fetch event announcements' });
     }
   });
+    // 17. POST /api/ai/polish-announcement (Agent37 rewrites the host's draft)
+  app.post('/api/ai/polish-announcement', async (req, res) => {
+    try {
+      const { rawText, tone = 'Civic & Official', eventId } = req.body;
+      if (!rawText || typeof rawText !== 'string') {
+        return res.status(400).json({ error: 'rawText is required' });
+      }
+      const db = loadDB();
+      const event = db.events.find((e) => e.id === eventId);
+      const context = event ? `Event: ${event.title}, starts ${event.startDateTime}.` : '';
+
+      const { reply } = await askAgent(
+        `Rewrite this event announcement in a "${tone}" tone. Keep every fact unchanged and keep it short. ` +
+        `Do not use tools. Reply with only the final announcement text.\n${context}\nDraft: ${rawText}`
+      );
+      res.json({ polishedText: reply.trim() });
+    } catch (err) {
+      console.error('Agent37 polish error:', err);
+      res.status(502).json({ error: 'AI assistant is unavailable right now' });
+    }
+  });
+
+  // 18. POST /api/ai/ask (Agent37 answers questions about an event)
+  app.post('/api/ai/ask', async (req, res) => {
+    try {
+      const { eventId, question, sessionId } = req.body;
+      if (!question || typeof question !== 'string') {
+        return res.status(400).json({ error: 'question is required' });
+      }
+      const db = loadDB();
+      const event = db.events.find((e) => e.id === eventId);
+      if (!event) return res.status(404).json({ error: 'Event not found' });
+
+      const { bannerUrl, ...eventInfo } = event; // drop large image data
+      const registered = db.registrations.filter(
+        (r) => r.eventId === eventId && r.status !== 'Cancelled' && r.status !== 'Rejected'
+      ).length;
+      const seatsLeft = event.capacity ? Math.max(event.capacity - registered, 0) : 'unlimited';
+
+      const result = await askAgent(
+        `You are Eventora's event assistant. Answer using only this data. Do not use tools. ` +
+        `If the answer is not in the data, say you don't know.\n` +
+        `Event: ${JSON.stringify(eventInfo)}\nRegistered: ${registered}\nSeats left: ${seatsLeft}\n\n` +
+        `Question: ${question}`,
+        sessionId
+      );
+      res.json({ reply: result.reply.trim(), sessionId: result.sessionId });
+    } catch (err) {
+      console.error('Agent37 ask error:', err);
+      res.status(502).json({ error: 'AI assistant is unavailable right now' });
+    }
+  });
 
   // Mount Vite middleware in development mode
   const isProd = process.env.NODE_ENV === 'production';
